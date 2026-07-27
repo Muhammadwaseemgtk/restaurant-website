@@ -1,0 +1,52 @@
+.about-container{
+    height: 100vh;
+}
+
+.story-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.main-heading{
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+
+.story{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 100px;
+}
+.story img{
+    width: 600px;
+    flex: 1;
+}
+
+.story-content{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    gap: 40px;
+}
+
+.story-content h1{
+    font-size: xx-large;
+
+}
+
+.story-content p{
+    font-size: larger;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+.reverse{
+    flex-direction: row-reverse;
+}
